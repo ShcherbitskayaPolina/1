@@ -19,6 +19,14 @@ namespace _1
         {
             Console.WriteLine("Имя: {0} Адрес: {1} Год создания: {2}", Name, Adres, God);
         }
-
+        public void SetInfo()
+        {
+            Console.WriteLine("Введите имя: ");
+            Name = Console.ReadLine();
+            Console.WriteLine("Введите год открытия: ");
+            God = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите адрес: ");
+            Adres = Console.ReadLine();
+        }
+        }
     }
-}
