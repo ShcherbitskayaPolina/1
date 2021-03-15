@@ -6,7 +6,12 @@ namespace _1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ввод данных");
+            Library l = new Library();
+            l.SetInfo();
+            l.GetInfo();
+            Console.ReadKey();
+
         }
     }
 }
