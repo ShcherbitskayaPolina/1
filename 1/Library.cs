@@ -15,6 +15,10 @@ namespace _1
             Adres = null;
             God = 0;
         }
+        public void GetInfo()
+        {
+            Console.WriteLine("Имя: {0} Адрес: {1} Год создания: {2}", Name, Adres, God);
+        }
 
     }
 }
